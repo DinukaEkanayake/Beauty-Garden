@@ -1,0 +1,246 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.top-bar{
+  background:lavender;
+  height: 2.0rem;
+  text-align: center;
+  font-size: larger;
+  font-family:sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+}
+.topbar-items{
+    display: flex;
+    padding-top: 7px;
+}
+.text-item1{
+  margin-left:5%;
+}
+.text-item2{
+  width: 15%;
+  margin-left: 14%;
+}
+
+.account{
+  display: flex;
+  margin-left: 12%;
+}
+.top-bar a{
+  color: rgb(0, 0, 0);
+}
+.FAQs{
+  margin-left:16%;
+}
+
+
+/* */
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /*  */
+
+.navi-bar-container{
+    height: 4rem;
+    background-color: #ffffff;
+    border: opx;
+    
+}
+.navi-bar-items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+   
+}
+  /*menu*/
+  .sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    
+  }
+  
+  .sidepanel a:hover {
+    color: #cd4242;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #eac7de;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 10px;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.openbtn:hover,
+.openbtn:focus {
+  background-color: #eac7de;
+  color: #000000;
+}
+
+.openbtn:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.openbtn:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+ 
+  /* */
+
+
+.search button{
+    margin-top: 15px;
+    padding: 3px 20px 3px 20px;
+   border-radius: 20px;
+    float: right;
+    margin-right: 16px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #eac7de;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.search input[type=text]{
+  margin-top: 15px;
+  padding: 5px 20px 5px 20px;
+  border: 1px solid #eac7de;
+    font-size: 17px;
+    border-radius: 20px;
+    font-family:system-ui,"Segoe UI","Liberation Sans",sans-serif;
+}
+.login ul{
+  list-style-type: none;
+  margin: 0;
+  padding-top: 5px;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.login li {
+  float: left;
+  padding-left: 15px;
+
+}
+.login li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+}
+.login ul li a:hover {
+  color: #be91ae;
+}
+
+.login ul li a:active {
+  color: rgb(17, 1, 126);
+}
+.login .signin{
+    background-color: brown;
+    
+}
+.signin a{
+    color: aliceblue;
+}
+.social{
+  margin-top: 5px;
+    padding: 0.8rem;
+}
+.icon{
+    margin: 0 2rem;
+    font-size: large;
+}
+
+
+
+

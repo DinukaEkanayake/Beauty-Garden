@@ -1,0 +1,36 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.footer-container{
+    padding: 60px 0 60px 0px; 
+    background-color: black;
+}
+.c-name{
+    color: white;
+    font-size: x-large;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-col .list{
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+}
+.footer-col .list li{
+    margin-top: 20px;
+    color: white;
+}
+.copyright{
+    text-align: center;
+    padding: 30px;
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+    background-color:black;
+
+}

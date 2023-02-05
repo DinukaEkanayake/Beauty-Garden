@@ -1,0 +1,77 @@
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: lavender;
+}
+.row{
+    height: 800px;
+    width: 40%;
+    position: fixed;
+    margin: 20px 500px 0 500px;
+}
+.signup-items{
+    padding: 0px 0 0 20px;
+}
+.form-rows{
+    display: flex;
+}
+.form-group2{
+    margin-left: 20px;
+}
+.para1{
+    text-align: center;
+}
+.inputnames{
+    display: inline-block;
+    width: 40%;
+}
+.form-control{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    padding: 8px;
+    outline-color: blue;
+    border-color: rgb(184, 186, 187);
+    width: 70%;
+}
+
+.signin{
+    margin-top: 10px;
+    text-align: center;
+}
+#signup{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: blue;
+    width: 250px;
+    border: 1px solid white;
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.homebtn{
+    border-radius: 20px;
+    padding: 10px 60px 10px 60px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(30, 0, 137);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 20px ;
+}
+.error{
+    background-color: rgb(218, 139, 139);
+    text-align: center;
+    padding: 10px;
+}
+.success{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+}
