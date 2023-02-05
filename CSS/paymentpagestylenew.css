@@ -1,0 +1,135 @@
+body{
+
+    background-image: linear-gradient(to right,#e1bcc8  , white);
+}
+
+
+.pay-row{
+
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 16px;
+    border-radius: 10px;
+}
+
+.form-container{
+    width: 70%;
+    background-color: #ffffff;
+    padding: 5px 20px 15px 20px;
+    margin-left: 20%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.paymentinfo-col{
+
+    position: relative;
+    float: left;
+
+    padding: 0 16px;
+    width: 50%;
+}
+
+.form-container input{
+    
+    
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  box-sizing: border-box;
+  font-size: 12pt;
+  font-style: oblique;
+  
+}
+
+.form-container input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid rgb(247, 184, 240);
+    border-radius: 3px;
+}
+
+.form-container input[type=text]:focus{
+
+    border: 2px solid rgb(238, 128, 213);
+}
+
+.form-container label{
+
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.form-container input[type=submit]{
+
+    background-color: rgb(245, 191, 229);
+    width: 10vw;
+    
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+.form-container input[type=submit]:hover{
+
+    background-color: rgb(238, 143, 226);
+}
+
+.submit-button{
+
+    width: 50%;
+    margin: auto;
+    padding-top: 5%;
+    padding-left: 15%;
+    
+}
+
+.form-container input[type=month]{
+
+    border: none;
+    border-bottom: 2px solid rgb(247, 184, 240);
+}
+
+
+.form-container select{
+
+    border-radius: 15px ;
+    border-color: solid rgb(247, 184, 240);
+    width: 70%;
+    padding: 10px 20px;
+    height: 40px;
+    font-size: 11pt;
+}
+
+.button-img{
+
+    
+    border-radius: 8px;
+    width: 42%;
+    float:right;
+    padding-right: 20%;
+    margin-right: 20%;
+       
+}
+
+.form-container input[type=radio]{
+
+    float: center;
+}
+
+.button-img-container{
+
+    margin-left: 20%;
+}
