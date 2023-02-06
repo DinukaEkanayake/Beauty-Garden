@@ -1,0 +1,229 @@
+
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.dashname{
+  margin-top: 10px;
+  text-align: center;
+}
+.f1{
+  font-size: 70px;
+  color: #a52478;
+}
+.f2{
+  color: #7c795d; 
+   font-weight: normal; 
+   line-height: 48px; 
+   margin: 0;
+}
+.sidenav {
+    margin-left: 30px;
+    height: fit-content;
+    width: 300px;
+    z-index: 1;
+    background-color: lavender;
+    padding-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .sidenav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+    border-bottom: 2px solid black;
+    text-align: center;
+  }
+  
+  .sidenav a:hover {
+    color: #fa9be7;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.panal-container{
+    position: relative;
+}
+
+  .heading
+{
+    margin-top: 10px;
+}
+.heading h1{
+  margin-top: 10px;
+}
+
+.row{
+    height: 100%;
+    margin: 0px 30px 10px 50px;
+  
+    border-radius: 20px;
+    width: 900px;
+}
+.signup-items{
+    float: right;
+    padding: 10px 0 0 10px;
+}
+.para1{
+    text-align: center;
+}
+.inputnames{
+    display: inline-block;
+    width: 30%;
+}
+.form-control{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    padding: 8px;
+    outline-color: blue;
+    border-color: rgb(184, 186, 187);
+    width: 50%;
+}
+
+.signin{
+    margin-top: 10px;
+    text-align: center;
+}
+#signup{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: blue;
+    width: 40%;
+    border: 1px solid white;
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.homebtn{
+    border-radius: 20px;
+    padding: 10px 80px 10px 80px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(30, 0, 137);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 20px 0 0 100px;
+}
+.error{
+    background-color: rgb(218, 139, 139);
+    text-align: center;
+    padding: 10px;
+}
+.success{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+}
+.point{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.home,.log_out {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  .delete{
+    background-color: RED; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  .btns{
+    padding-left: 250px;
+  }
+.items{
+  height: 100%;
+}
+.next,.previous{
+  position:relative;
+  color: white;
+  background-color: #a52478;
+  padding: 10px;
+  width: 70px;
+  border: none;
+  margin-top: 10px;
+  border-radius:5px
+
+}
+.next,
+.previous:hover{
+  opacity: 1;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,  th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+ th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+.pw{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+.submit {
+  background-color: #b80f0f;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.form-control{
+  padding-left: 50px;
+}
